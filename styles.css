@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header*/
+.navbar {
+  display: block;
+  margin: 0 auto;
+  background-color: #c2c0c0;
+  padding: 30px;
+  position: static;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  border-bottom: solid;
+  border-color: black;
+}
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  font-family: "open sans", sans-serif;
+}
+.nav a {
+  display: inline-block;
+  padding: 0 20px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.nav a:hover {
+  color: #caebf2;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+.logo {
+  text-align: left;
+  margin-top:-45px;
+}
+.pattern {
+		padding: 30px;
+}
+.toppattern {
+	padding-top: 40px;
+	padding-bottom: 20px;
+  width: auto;
+  background-image: linear-gradient(to bottom,#d6d4d4,white);
+}
+.simone{
+  width: 28%;
+  display: inline-block;
+}
+.simone img{
+  width: 300px;
+  margin-left: 50px;
+}
+.nome {
+  margin-left: 100px;
+  width: 500px;
+  text-align: center;
+  font: italic small-caps bold 30px/2 cursive;
+  margin-bottom: 20px;
+}
+.ruolo{
+  margin-left: 100px;
+  width: 500px;
+  text-align: center;
+  font: italic normal 22px/1.2 sans-serif;
+  margin-bottom: 10px;
+}
+.descrizione{
+  margin-left: 50px;
+  width: 500px;
+  font: italic normal 15px/2 system-ui;
+  line-height: 18px;
+  width: 700px;
+  height: auto;
+}
+
+/*midpattern*/
+.midpattern {
+  background-color: #F3EFE0;
+  height: 575px;
+}
+.title {
+  top: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  font: italic small-caps bold 20px/2 cursive;
+}
+.bar {
+  margin: 0 auto;
+  width: 70%;
+  font: italic 400 16px cursive;
+}
+.container1 {
+  text-align: center;
+  width: 80%;
+  background-color: #ddd;
+  border-radius: 3px;
+  border: thick double black;
+}
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+.html {width: 25%; background-color: #9AD4F0;border-radius: 3px;}
+.css {width: 25%; background-color: #9AD4F0;border-radius: 3px;}
+.figma {width:50%; background-color: #9AD4F0;border-radius: 3px;}
+.gimp {width: 50%; background-color: #9AD4F0;border-radius: 3px;}
+.office {width:75%; background-color: #9AD4F0;border-radius: 3px;}
+.canva {width:70%; background-color: #9AD4F0;border-radius: 3px;}
+.trello {width:70%; background-color: #9AD4F0;border-radius: 3px;}
+.salesforce {width:50%; background-color: #9AD4F0;border-radius: 3px;}
+
+/*endpattern*/
+.endpattern {
+  background-image: linear-gradient(to top,#d6d4d4,white);
+  height: auto;
+}
+.progetti {
+  text-align: center;
+  font: italic small-caps bold 24px/2 cursive;
+}
+.linea1{
+  margin: 0 auto;
+  width: 450px;
+  height: 1px;
+}
+.parent {
+  text-align: center;
+  margin: auto 0;
+}
+.parent div {
+  margin:5px;
+  display: inline-block;
+  text-align: left;
+}
+.introprogetti {
+  font: italic normal 15px/2 system-ui;
+  text-align: center;
+}
+.reviewprogetti{
+  font: italic bold 20px/2 system-ui;
+  color: red;
+  text-align: center;
+  margin: 20px;
+}
+.warning1{
+  height: 40px;
+  width: auto;
+}
+.articoli {
+  text-align: center;
+  margin: auto 0;
+}
+.articoli div{
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+  height: auto;
+}
+.project1, .project2, .project3, .project4, .project5 {
+  font: italic bold 15px/2 system-ui;
+  text-align: center;
+}
+.immagine1, .immagine2, .immagine3, .immagine4, .immagine5 {
+  width: 350px;
+  height: auto;
+  margin-top: -70px;
+  margin-bottom: -60px;
+}
+
+/*footer*/
+footer {
+  text-align: right;
+  padding: 10px;
+  background-color: #BDB1B1;
+  color: white;
+  height: auto;
+  border-top: solid;
+  border-color: black;
+}
+.autore {
+  font: oblique 16px cursive;
+}
+.email, .telefono, .luogo{
+  font: italic bold 12px/2 cursive;
+  color: black;
+}
+.loghisocial {
+  text-align: left;
+}
+.loghisocial div{
+  display: inline-block;
+  margin-top: -100px;
+}
+.emailogo, .phonelogo, .loclogo {
+  width: 25px;
+}
