@@ -212,3 +212,82 @@ footer {
 .emailogo, .phonelogo, .loclogo {
   width: 25px;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Responsive*/
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .logo {
+    display: none;
+  }
+  body {
+    max-width: 100%;
+  }
+  .simone img {
+    width: 110%;
+    display: flex;
+    margin: 0 auto;
+  }
+  .nome {
+    font-size: 0.8em;
+    max-width: 200%;
+    margin-left: auto;
+  }
+  .ruolo {
+    font-size: 0.7em;
+    max-width: 200%;
+    margin-left: auto;
+  }
+  .descrizione {
+    font-size: 0.6em;
+    margin-left: auto;
+    max-width: 250%;
+  }
+  .linea1{
+    display: none;
+  }
+  .articoli {
+    margin-left: -25%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 900px) {
+  body {
+    max-width: 100%;
+  }
+  .logo {
+    display: none;
+  }
+  .simone img {
+    width: 110%;
+    display: flex;
+    margin: 0 auto;
+  }
+  .nome {
+    font-size: 1.5em;
+    max-width: 250%;
+    margin-left: auto;
+  }
+  .ruolo {
+    font-size: 1.3em;
+    max-width: 200%;
+    margin-left: auto;
+  }
+  .descrizione {
+    font-size: 1em;
+    margin-left: auto;
+    max-width: 250%;
+  }
+  .linea1{
+    display: none;
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 901px) {
+}
